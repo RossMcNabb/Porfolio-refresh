@@ -3,6 +3,33 @@
     <head>
         <title>Contact</title>
     </head>
+    <div>
+        <h1>Contact Me</h1>
+        <p> If you would like to approach for any inquires please use the below fields</p>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Personal / Contact Details</legend>
+            <label for="firstname">First Name</label>
+            <input id="firstname" type="text">
+            <label for="lastname">Last Name</label>
+            <input id="lastname" type="text">
+            <br/>
+            <label for="emailaddress">Email Address</label>
+            <input id="emailaddress" type="email">
+        </fieldset>
+        <fieldset>
+            <legend>Enquiry Details</legend>
+            <label for="reasonforenquiry">Reason For Enquiry</label>
+            <select name="reasonforenquiry">
+                <option value="Personal">Personal</option>
+                <option value="jobrelated">Job Related</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="enquirydetails">Details of your enquiry</label>
+            <input id="enquirydetails" type="text">
+        </fieldset>
+    </form>
     <body></body>
     <Footer></Footer>
 </html>
