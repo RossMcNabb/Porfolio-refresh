@@ -1,0 +1,47 @@
+h1 {
+     color: red;
+}
+
+.list-class1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+} 
+
+#listid2 {
+    color: olivedrab;
+}
+
+#about-me p {
+    font-weight: lighter;
+}
+ #about-me > p {
+    color: blueviolet;
+ }
+ .profilepic + p {
+ color: brown;
+ }
+
+ #box:checked {
+    outline: 5px solid gold;
+ }
+
+ #box:checked + label {
+    color: solid blueviolet;
+    font-size: large;
+ }
+
+ #navbarlinks:hover {
+    font-weight: bold;
+    font-size: larger;
+    color: green;
+ }
+ title:hover{
+    font-weight: bold;
+    font-size: larger;
+    color: solid green;
+ }
+ #qualities {
+    font-weight: bold;
+    font-size: larger;
+    color: solid green;
+ }
